@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>ToDoApp</title>
+</head>
+
+<body class="bg-dark ">
+  <div class="container-fluid">
+    <div class="main">
+      <div class="row">
+       <div class="col-md-3">
+        <div class="col-md-3 col-sm-3  left position-fixed">
+          <div class="card button-wrapper ">
+            <button type="submit"  class="btn-all">All <span class="all-count">0</span></button>
+            <button type="submit" class="btn-completed">Completed <span class="completed-count">0</span></button>
+            <button type="submit" class="btn-uncompleted">Uncompleted <span class="uncompleted-count">0</span></button>
+          </div>
+       </div>
+        </div>
+        <div class="col-md-9 col-sm-9 right h-100 ">
+          <form class="form d-flex align-items-end w-100 h-90 m-1 my-4" >
+            <div class="input-group mb-3 ">
+              <input type="text" class="form-control  btn-outline-dark input ml-5" aria-label="Text input with checkbox "
+                placeholder="type..." >
+              <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Button</button>
+            </div>
+          </form>
+          <ul class="list"></ul>
+        </div>
+      </div>
+    </div>
+    <!-- <main>
+    <section style="width: 1157px; padding: 0 20px; margin: 40px auto;">
+      
+        <div>
+          <input class="input" type="text" name="todo" placeholder="type...">
+        </div>
+
+        <button type="submit">Add</button>
+      </form>
+
+      
+
+      <div class="">
+        <button>All </button>
+      <button ">Completed </button>
+      <button >Uncompleted </button>
+      </div>
+    </section>
+  </main> -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.left {
+  height: 100vh;
+  background: rgb(0, 0, 0);
+}
+.card {
+  background: transparent;
+}
+.right {
+  background: rgba(106, 104, 104, 0.35);
+  height: 100vh;
+}
+.card > button {
+  border: none;
+  background: none;
+  color: #cee;
+  font-size: 22px;
+  padding: 10px 50px;
+  text-align: left;
+  margin-top: 20px;
+}
+.card > button:hover {
+  background: rgba(104, 103, 103, 0.563);
+}
+.card > button:active {
+  background: rgba(174, 166, 166, 0.563);
+}
+.new-li {
+  list-style: none;
+  width: 100%;
+  height: 10%;
+  background: rgba(204, 238, 238, 0.268);
+  margin: 10px 0;
+  padding: 10px 50px;
+  position: relative;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  transition: 1s all linear;
+}
+.new-li:hover{
+  background: rgba(204, 238, 238, 0.604);
+}
+.checkbox-btn {
+  position: absolute;
+  left: 12px;
+  top: 9px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.delete-btn{
+  position: absolute;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+}
+.bi{
+  font-size: 25px;
+  color: rgb(214, 210, 210);
+}
+.bi-check-circle-fill:active{
+  color: white;
+}
